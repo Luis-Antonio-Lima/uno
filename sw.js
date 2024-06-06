@@ -1,3 +1,7 @@
+// O recurso Navigation Preload no Service Worker é usado para acelerar o tempo de inicialização do Service Worker, fazendo solicitações em paralelo.
+
+// Quando um usuário navega para uma página da web, o navegador inicia o Service Worker, mas também precisa esperar que ele seja iniciado antes de poder
+// enviar a solicitação para a página da web. Isso pode levar a um atraso, especialmente se o Service Worker estiver realizando tarefas pesadas.
 addEventListener('activate', event => {
   event.waitUntil(async function() {
     // Feature-detect
