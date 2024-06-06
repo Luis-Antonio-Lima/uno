@@ -10,6 +10,8 @@ const urlsToCache = [
   '/sw.js',
   '/unoIcon192.png',
   '/unoIcon512.png',
+  '/background.jpg',
+  '/card.png',
   '/0-red.png',
   '/0-blue.png',
   '/0-green.png',
