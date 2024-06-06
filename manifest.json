@@ -6,12 +6,12 @@
     "icons": [
       {
         "src": "unoIcon192.png",
-        "sizes": "192x134",
+        "sizes": "192x192",
         "type": "image/png"
       },
       {
         "src": "unoIcon512.png",
-        "sizes": "512x359",
+        "sizes": "512x512",
         "type": "image/png"
       }
     ]
