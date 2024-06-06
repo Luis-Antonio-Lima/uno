@@ -1,7 +1,7 @@
 # uno
 
 ![AUR License](https://img.shields.io/github/license/Luis-Antonio-Lima/uno)
-![W3C Validation](https://img.shields.io/w3c-validation/https://luis-antonio-lima.github.io/uno/)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https://luis-antonio-lima.github.io/uno/)
 ![Website](https://img.shields.io/website?url=https://luis-antonio-lima.github.io/uno/)
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
