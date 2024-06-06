@@ -1,5 +1,8 @@
 # uno
 
+![AUR License](https://img.shields.io/aur/license/:packageName)
+
+
 https://luis-antonio-lima.github.io/uno/
 
 ## Acesse meu site pelo link acima ou pelo QR Code Abaixo
