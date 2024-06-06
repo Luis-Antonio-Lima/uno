@@ -1,5 +1,5 @@
 // Nome do cache (controle de versão)
-const cacheUNO = 'cache-v1'
+const cachePWA = 'cache-v1'
 // Arquivos a serem armazenados em cache
 // Todos os arquivos devem ser adicionados ao vetor (exceto o manifesto)
 const urlsToCache = [
@@ -75,7 +75,7 @@ const urlsToCache = [
 // Instalando o Service Worker e armazenando os arquivos no cache
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(cacheUNO)
+    caches.open(cachePWA)
       .then((cache) => {
         return cache.addAll(urlsToCache)
       })
