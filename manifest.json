@@ -3,7 +3,6 @@
     "short_name": "Uno",
     "start_url": "/uno/",
     "display": "standalone",
-    "orientation": "portrait",
     "icons": [
       {
         "src": "unoIcon192.png",
