@@ -4,6 +4,8 @@
     "start_url": "/uno/",
     "display": "standalone",
     "orientation": "portrait",
+    "scope": "fullscreen",
+    "lang": "pt-br",
     "icons": [
       {
         "src": "unoIcon192.png",

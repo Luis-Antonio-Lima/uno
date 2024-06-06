@@ -1,3 +1,13 @@
+addEventListener('activate', event => {
+  event.waitUntil(async function() {
+    // Feature-detect
+    if (self.registration.navigationPreload) {
+      // Enable navigation preloads!
+      await self.registration.navigationPreload.enable();
+    }
+  }());
+});
+
 // Nome do cache (controle de versão)
 const cachePWA = 'cache-v2'
 // Arquivos a serem armazenados em cache
@@ -97,3 +107,16 @@ self.addEventListener('fetch', (event) => {
       })
   )
 })
+
+// O Periodic Sync permite que as aplicações web alertem seu Service Worker para fazer atualizações em um intervalo de tempo periodico
+// Neste caso a atualização ocorre no periodo de 1 dia
+async function registerPeriodicNewsCheck() {
+  const registration = await navigator.serviceWorker.ready;
+  try {
+    await registration.periodicSync.register("get-latest-news", {
+      minInterval: 24 * 60 * 60 * 1000,
+    });
+  } catch {
+    console.log("Periodic Sync could not be registered!");
+  }
+}
