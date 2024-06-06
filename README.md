@@ -1,6 +1,6 @@
 # uno
 
-![AUR License](https://img.shields.io/github/license/Luis-Antonio-Lima/uno)
+![Github License](https://img.shields.io/github/license/Luis-Antonio-Lima/uno)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https://luis-antonio-lima.github.io/uno/)
 ![Website](https://img.shields.io/website?url=https://luis-antonio-lima.github.io/uno/)
 <p>
