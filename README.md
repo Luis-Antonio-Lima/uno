@@ -1,7 +1,15 @@
 # uno
 
-![AUR License](https://img.shields.io/aur/license/:packageName)
-
+![AUR License](https://img.shields.io/github/license/Luis-Antonio-Lima/uno)
+![W3C Validation](https://img.shields.io/w3c-validation/https://luis-antonio-lima.github.io/uno/)
+![Website](https://img.shields.io/website?url=https://luis-antonio-lima.github.io/uno/)
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="CSS válido!" />
+    </a>
+</p>
 
 https://luis-antonio-lima.github.io/uno/
 
