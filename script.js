@@ -21,7 +21,7 @@ function sortearCarta() {
 */
 
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     console.log(`${tipoCarta}`)
 
@@ -213,7 +213,7 @@ function zerored() {
     valorCarta = ["0-red","0-blue","0-green","0-yellow","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
@@ -399,7 +399,7 @@ function zeroblue() {
     valorCarta = ["0-red","0-blue","0-green","0-yellow","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -585,7 +585,7 @@ function zerogreen() {
     valorCarta = ["0-red","0-blue","0-green","0-yellow","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -771,7 +771,7 @@ function zeroyellow() {
     valorCarta = ["0-red","0-blue","0-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -957,7 +957,7 @@ function onered() {
     valorCarta = ["0-red","1-blue","1-green","1-yellow","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
@@ -1143,7 +1143,7 @@ function oneblue() {
     valorCarta = ["1-red","0-blue","1-green","1-yellow","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -1329,7 +1329,7 @@ function onegreen() {
     valorCarta = ["1-red","1-blue","0-green","1-yellow","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -1515,7 +1515,7 @@ function oneyellow() {
     valorCarta = ["1-red","1-blue","1-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -1701,7 +1701,7 @@ function twored() {
     valorCarta = ["2-red","2-blue","2-green","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -1887,7 +1887,7 @@ function twoblue() {
     valorCarta = ["2-red","2-yellow","2-green","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -2073,7 +2073,7 @@ function twogreen() {
     valorCarta = ["2-red","2-yellow","2-blue","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -2259,7 +2259,7 @@ function twoyellow() {
     valorCarta = ["2-red","2-green","2-blue","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -2445,7 +2445,7 @@ function threered() {
     valorCarta = ["3-yellow","3-green","3-blue","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -2631,7 +2631,7 @@ function threeblue() {
     valorCarta = ["3-yellow","3-green","3-red","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -2817,7 +2817,7 @@ function threegreen() {
     valorCarta = ["3-yellow","3-blue","3-red","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -3003,7 +3003,7 @@ function threeyellow() {
     valorCarta = ["3-green","3-blue","3-red","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -3189,7 +3189,7 @@ function fourred() {
     valorCarta = ["4-green","4-blue","4-yellow","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -3375,7 +3375,7 @@ function fourblue() {
     valorCarta = ["4-green","4-red","4-yellow","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -3561,7 +3561,7 @@ function fourgreen() {
     valorCarta = ["4-red","4-blue","4-yellow","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -3747,7 +3747,7 @@ function fouryellow() {
     valorCarta = ["4-red","4-blue","4-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -3933,7 +3933,7 @@ function fivered() {
     valorCarta = ["5-green","5-blue","5-yellow","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -4119,7 +4119,7 @@ function fiveblue() {
     valorCarta = ["5-green","5-red","5-yellow","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -4305,7 +4305,7 @@ function fivegreen() {
     valorCarta = ["5-red","5-blue","5-yellow","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -4491,7 +4491,7 @@ function fiveyellow() {
     valorCarta = ["5-red","5-blue","5-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -4677,7 +4677,7 @@ function sixred() {
     valorCarta = ["6-green","6-blue","6-yellow","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -4863,7 +4863,7 @@ function sixblue() {
     valorCarta = ["6-green","6-red","6-yellow","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -5049,7 +5049,7 @@ function sixgreen() {
     valorCarta = ["6-red","6-blue","6-yellow","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -5235,7 +5235,7 @@ function sixyellow() {
     valorCarta = ["6-red","6-blue","6-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -5421,7 +5421,7 @@ function sevenred() {
     valorCarta = ["7-green","7-blue","7-yellow","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -5607,7 +5607,7 @@ function sevenblue() {
     valorCarta = ["7-green","7-red","7-yellow","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -5793,7 +5793,7 @@ function sevengreen() {
     valorCarta = ["7-red","7-blue","7-yellow","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -5979,7 +5979,7 @@ function sevenyellow() {
     valorCarta = ["7-red","7-blue","7-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -6165,7 +6165,7 @@ function eightred() {
     valorCarta = ["8-green","8-blue","8-yellow","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -6351,7 +6351,7 @@ function eightblue() {
     valorCarta = ["8-green","8-red","8-yellow","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -6537,7 +6537,7 @@ function eightgreen() {
     valorCarta = ["8-red","8-blue","8-yellow","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -6723,7 +6723,7 @@ function eightyellow() {
     valorCarta = ["8-red","8-blue","8-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -6909,7 +6909,7 @@ function ninered() {
     valorCarta = ["9-green","9-blue","9-yellow","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -7095,7 +7095,7 @@ function nineblue() {
     valorCarta = ["9-green","9-red","9-yellow","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -7281,7 +7281,7 @@ function ninegreen() {
     valorCarta = ["9-red","9-blue","9-yellow","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -7467,7 +7467,7 @@ function nineyellow() {
     valorCarta = ["9-red","9-blue","9-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -7653,7 +7653,7 @@ function bloqueiored() {
     valorCarta = ["bloqueio-green","bloqueio-blue","bloqueio-yellow","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -7839,7 +7839,7 @@ function bloqueioblue() {
     valorCarta = ["bloqueio-green","bloqueio-red","bloqueio-yellow","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -8025,7 +8025,7 @@ function bloqueiogreen() {
     valorCarta = ["bloqueio-red","bloqueio-blue","bloqueio-yellow","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -8211,7 +8211,7 @@ function bloqueioyellow() {
     valorCarta = ["bloqueio-red","bloqueio-blue","bloqueio-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -8397,7 +8397,7 @@ function invertered() {
     valorCarta = ["inverte-green","inverte-blue","inverte-yellow","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -8583,7 +8583,7 @@ function inverteblue() {
     valorCarta = ["inverte-green","inverte-red","inverte-yellow","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -8769,7 +8769,7 @@ function invertegreen() {
     valorCarta = ["inverte-red","inverte-blue","inverte-yellow","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -8955,7 +8955,7 @@ function inverteyellow() {
     valorCarta = ["inverte-red","inverte-blue","inverte-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -9141,7 +9141,7 @@ function corred() {
     valorCarta = ["cor-green","cor-blue","cor-yellow","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -9327,7 +9327,7 @@ function corblue() {
     valorCarta = ["cor-green","cor-red","cor-yellow","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -9513,7 +9513,7 @@ function corgreen() {
     valorCarta = ["cor-red","cor-blue","cor-yellow","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -9699,7 +9699,7 @@ function coryellow() {
     valorCarta = ["cor-red","cor-blue","cor-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -9885,7 +9885,7 @@ function moretwored() {
     valorCarta = ["mais2-green","mais2-blue","mais2-yellow","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -10071,7 +10071,7 @@ function moretwoblue() {
     valorCarta = ["mais2-green","mais2-red","mais2-yellow","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -10257,7 +10257,7 @@ function moretwogreen() {
     valorCarta = ["mais2-red","mais2-blue","mais2-yellow","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -10443,7 +10443,7 @@ function moretwoyellow() {
     valorCarta = ["mais2-red","mais2-blue","mais2-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -10629,7 +10629,7 @@ function morefourred() {
     valorCarta = ["mais4-green","mais4-blue","mais4-yellow","0-red","1-red","2-red","3-red","4-red","5-red","6-red","7-red","8-red","9-red","bloqueio-red", "inverte-red", "cor-red", "mais2-red", "mais4-red"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -10815,7 +10815,7 @@ function morefourblue() {
     valorCarta = ["mais4-green","mais4-red","mais4-yellow","0-blue","1-blue","2-blue","3-blue","4-blue","5-blue","6-blue","7-blue","8-blue","9-blue","bloqueio-blue", "inverte-blue", "cor-blue", "mais2-blue", "mais4-blue"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -11001,7 +11001,7 @@ function morefourgreen() {
     valorCarta = ["mais4-red","mais4-blue","mais4-yellow","0-green","1-green","2-green","3-green","4-green","5-green","6-green","7-green","8-green","9-green","bloqueio-green", "inverte-green", "cor-green", "mais2-green", "mais4-green"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
@@ -11187,7 +11187,7 @@ function morefouryellow() {
     valorCarta = ["mais4-red","mais4-blue","mais4-green","0-yellow","1-yellow","2-yellow","3-yellow","4-yellow","5-yellow","6-yellow","7-yellow","8-yellow","9-yellow","bloqueio-yellow", "inverte-yellow", "cor-yellow", "mais2-yellow", "mais4-yellow"]
     let tipoCarta = valorCarta[Math.floor(Math.random() * valorCarta.length)]
     let centroCarta = document.getElementById('centro')
-    centroCarta.innerHTML = `<img src="./img/${tipoCarta}.png">`
+    centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
