@@ -27,7 +27,7 @@ self.addEventListener('install', (event) => {
         return cache.addAll([
           '/index.html',
           '/style.css',
-          '/script.js',
+          '/cartas.js',
           '/sw.js',
           '/unoIcon192.png',
           '/unoIcon512.png',
