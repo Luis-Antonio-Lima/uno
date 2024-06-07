@@ -16,6 +16,7 @@ addEventListener('activate', event => {
 
 // Nome do cache (controle de versão)
 const cachePWA = 'cache-v2'
+
 // Arquivos a serem armazenados em cache
 // Todos os arquivos devem ser adicionados ao vetor (exceto o manifesto)
 
@@ -37,7 +38,6 @@ self.addEventListener('install', (event) => {
           '/0-blue.png',
           '/0-green.png',
           '/0-yellow.png',
-          /*
           '/1-red.png',
           '/1-blue.png',
           '/1-green.png',
@@ -94,7 +94,7 @@ self.addEventListener('install', (event) => {
           '/mais4-blue.png',
           '/mais4-green.png',
           '/mais4-yellow.png'
-          */
+          
         ])
       })
   )

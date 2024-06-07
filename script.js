@@ -1,3 +1,6 @@
+/**
+ * @author Luís Antônio de Paula Lima
+ */
 
 
 function sortearCarta() {
