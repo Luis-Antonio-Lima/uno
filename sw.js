@@ -37,6 +37,7 @@ self.addEventListener('install', (event) => {
           '/0-blue.png',
           '/0-green.png',
           '/0-yellow.png',
+          /*
           '/1-red.png',
           '/1-blue.png',
           '/1-green.png',
@@ -93,6 +94,7 @@ self.addEventListener('install', (event) => {
           '/mais4-blue.png',
           '/mais4-green.png',
           '/mais4-yellow.png'
+          */
         ])
       })
   )
