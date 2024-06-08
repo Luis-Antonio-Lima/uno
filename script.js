@@ -230,171 +230,45 @@ function zerored() {
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -413,174 +287,48 @@ function zeroblue() {
     } else if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -599,171 +347,45 @@ function zerogreen() {
     } else if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -785,174 +407,48 @@ function zeroyellow() {
     } else if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -962,16 +458,7 @@ function onered() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-red") {
+    if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
@@ -986,159 +473,42 @@ function onered() {
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -1148,16 +518,7 @@ function oneblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
@@ -1169,162 +530,45 @@ function oneblue() {
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -1334,16 +578,7 @@ function onegreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
@@ -1355,159 +590,42 @@ function onegreen() {
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -1520,16 +638,7 @@ function oneyellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+   if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
@@ -1541,162 +650,45 @@ function oneyellow() {
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -1709,27 +701,9 @@ function twored() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
@@ -1742,147 +716,39 @@ function twored() {
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -1892,27 +758,9 @@ function twoblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
@@ -1925,150 +773,42 @@ function twoblue() {
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -2078,30 +818,12 @@ function twogreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
@@ -2111,147 +833,39 @@ function twogreen() {
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -2264,30 +878,12 @@ function twoyellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
@@ -2297,150 +893,42 @@ function twoyellow() {
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -2453,39 +941,12 @@ function threered() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
@@ -2498,135 +959,36 @@ function threered() {
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -2636,42 +998,15 @@ function threeblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+   if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
@@ -2681,138 +1016,39 @@ function threeblue() {
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -2822,39 +1058,12 @@ function threegreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
@@ -2867,135 +1076,36 @@ function threegreen() {
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -3008,42 +1118,15 @@ function threeyellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
@@ -3053,138 +1136,39 @@ function threeyellow() {
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -3197,51 +1181,15 @@ function fourred() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
@@ -3254,123 +1202,33 @@ function fourred() {
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -3380,54 +1238,18 @@ function fourblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
@@ -3437,126 +1259,36 @@ function fourblue() {
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -3566,54 +1298,18 @@ function fourgreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
@@ -3623,123 +1319,33 @@ function fourgreen() {
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -3752,51 +1358,15 @@ function fouryellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
@@ -3809,126 +1379,36 @@ function fouryellow() {
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -3941,60 +1421,15 @@ function fivered() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
@@ -4010,111 +1445,30 @@ function fivered() {
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -4124,66 +1478,21 @@ function fiveblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
@@ -4193,114 +1502,33 @@ function fiveblue() {
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -4310,63 +1538,18 @@ function fivegreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
@@ -4379,111 +1562,30 @@ function fivegreen() {
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -4496,66 +1598,21 @@ function fiveyellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
@@ -4565,114 +1622,33 @@ function fiveyellow() {
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -4685,75 +1661,21 @@ function sixred() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
@@ -4766,99 +1688,27 @@ function sixred() {
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -4868,78 +1718,24 @@ function sixblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
@@ -4949,102 +1745,30 @@ function sixblue() {
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -5054,75 +1778,21 @@ function sixgreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
@@ -5135,99 +1805,27 @@ function sixgreen() {
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -5240,78 +1838,24 @@ function sixyellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+   if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
@@ -5321,102 +1865,30 @@ function sixyellow() {
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -5429,87 +1901,24 @@ function sevenred() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
@@ -5522,87 +1931,24 @@ function sevenred() {
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -5612,90 +1958,27 @@ function sevenblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
@@ -5705,90 +1988,27 @@ function sevenblue() {
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -5798,87 +2018,24 @@ function sevengreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
@@ -5891,87 +2048,24 @@ function sevengreen() {
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -5984,90 +2078,27 @@ function sevenyellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
@@ -6077,90 +2108,27 @@ function sevenyellow() {
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -6173,99 +2141,27 @@ function eightred() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
@@ -6278,75 +2174,21 @@ function eightred() {
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -6356,102 +2198,30 @@ function eightblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
@@ -6461,78 +2231,24 @@ function eightblue() {
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -6542,99 +2258,27 @@ function eightgreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
@@ -6647,75 +2291,21 @@ function eightgreen() {
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -6728,102 +2318,30 @@ function eightyellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
@@ -6833,78 +2351,24 @@ function eightyellow() {
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -6917,111 +2381,30 @@ function ninered() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
@@ -7034,63 +2417,18 @@ function ninered() {
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -7100,114 +2438,33 @@ function nineblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
@@ -7217,66 +2474,21 @@ function nineblue() {
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -7286,111 +2498,30 @@ function ninegreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
@@ -7403,63 +2534,18 @@ function ninegreen() {
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -7472,114 +2558,33 @@ function nineyellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
@@ -7589,66 +2594,21 @@ function nineyellow() {
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -7661,123 +2621,33 @@ function bloqueiored() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
@@ -7790,51 +2660,15 @@ function bloqueiored() {
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -7844,126 +2678,36 @@ function bloqueioblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
@@ -7973,54 +2717,18 @@ function bloqueioblue() {
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -8030,123 +2738,33 @@ function bloqueiogreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
@@ -8159,51 +2777,15 @@ function bloqueiogreen() {
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -8216,126 +2798,36 @@ function bloqueioyellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
@@ -8345,54 +2837,18 @@ function bloqueioyellow() {
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -8405,135 +2861,36 @@ function invertered() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
@@ -8546,39 +2903,12 @@ function invertered() {
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -8588,138 +2918,39 @@ function inverteblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
@@ -8729,42 +2960,15 @@ function inverteblue() {
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
+    }else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -8774,135 +2978,36 @@ function invertegreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
@@ -8915,39 +3020,12 @@ function invertegreen() {
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -8960,138 +3038,39 @@ function inverteyellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
@@ -9101,42 +3080,15 @@ function inverteyellow() {
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -9149,147 +3101,39 @@ function corred() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
@@ -9302,27 +3146,9 @@ function corred() {
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
+    }else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -9332,150 +3158,42 @@ function corblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
@@ -9485,30 +3203,12 @@ function corblue() {
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -9518,147 +3218,39 @@ function corgreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
+    }else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
@@ -9671,27 +3263,9 @@ function corgreen() {
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -9704,150 +3278,42 @@ function coryellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
@@ -9857,30 +3323,12 @@ function coryellow() {
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -9893,159 +3341,42 @@ function moretwored() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
@@ -10058,15 +3389,6 @@ function moretwored() {
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -10076,162 +3398,45 @@ function moretwoblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
@@ -10241,18 +3446,9 @@ function moretwoblue() {
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -10262,159 +3458,42 @@ function moretwogreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
@@ -10427,15 +3506,6 @@ function moretwogreen() {
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-yellow") {
-        let morefourYellow = document.getElementById('switch')
-        morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-green") {
         let morefourGreen = document.getElementById('switch')
         morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
@@ -10448,162 +3518,45 @@ function moretwoyellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
@@ -10613,18 +3566,9 @@ function moretwoyellow() {
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-red") {
-        let morefourRed = document.getElementById('switch')
-        morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-blue") {
-        let morefourBlue = document.getElementById('switch')
-        morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-yellow") {
         let morefourYellow = document.getElementById('switch')
         morefourYellow.innerHTML = `<button onclick = ${"morefouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais4-green") {
-        let morefourGreen = document.getElementById('switch')
-        morefourGreen.innerHTML = `<button onclick = ${"morefourgreen()  "}>Jogar Uma Carta</button>`
     }
 }
 
@@ -10637,171 +3581,45 @@ function morefourred() {
     if (tipoCarta == "0-red") {
         let zeroRed = document.getElementById('switch')
         zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-red") {
         let oneRed = document.getElementById('switch')
         oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-red") {
         let twoRed = document.getElementById('switch')
         twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-red") {
         let threeRed = document.getElementById('switch')
         threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-red") {
         let fourRed = document.getElementById('switch')
         fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-red") {
         let fiveRed = document.getElementById('switch')
         fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-red") {
         let sixRed = document.getElementById('switch')
         sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-red") {
         let sevenRed = document.getElementById('switch')
         sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-red") {
         let eightRed = document.getElementById('switch')
         eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-red") {
         let nineRed = document.getElementById('switch')
         nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-red") {
         let bloqueioRed = document.getElementById('switch')
         bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-red") {
         let inverteRed = document.getElementById('switch')
         inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-red") {
         let corRed = document.getElementById('switch')
         corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-red") {
         let moretwoRed = document.getElementById('switch')
         moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-blue") {
         let morefourBlue = document.getElementById('switch')
         morefourBlue.innerHTML = `<button onclick = ${"morefourblue()  "}>Jogar Uma Carta</button>`
@@ -10820,174 +3638,48 @@ function morefourblue() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
+    if (tipoCarta == "0-blue") {
         let zeroBlue = document.getElementById('switch')
         zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-blue") {
         let oneBlue = document.getElementById('switch')
         oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-blue") {
         let twoBlue = document.getElementById('switch')
         twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-blue") {
         let threeBlue = document.getElementById('switch')
         threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-blue") {
         let fourBlue = document.getElementById('switch')
         fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-blue") {
         let fiveBlue = document.getElementById('switch')
         fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-blue") {
         let sixBlue = document.getElementById('switch')
         sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-blue") {
         let sevenBlue = document.getElementById('switch')
         sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-blue") {
         let eightBlue = document.getElementById('switch')
         eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-blue") {
         let nineBlue = document.getElementById('switch')
         nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-blue") {
         let bloqueioBlue = document.getElementById('switch')
         bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-blue") {
         let inverteBlue = document.getElementById('switch')
         inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-blue") {
         let corBlue = document.getElementById('switch')
         corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-blue") {
         let moretwoBlue = document.getElementById('switch')
         moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
@@ -11006,171 +3698,45 @@ function morefourgreen() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
+    if (tipoCarta == "0-green") {
         let zeroGreen = document.getElementById('switch')
         zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
-        let zeroYellow = document.getElementById('switch')
-        zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-green") {
         let oneGreen = document.getElementById('switch')
         oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-yellow") {
-        let oneYellow = document.getElementById('switch')
-        oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-yellow") {
-        let twoYellow = document.getElementById('switch')
-        twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-green") {
         let twoGreen = document.getElementById('switch')
         twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-green") {
         let threeGreen = document.getElementById('switch')
         threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-yellow") {
-        let threeYellow = document.getElementById('switch')
-        threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-yellow") {
-        let fourYellow = document.getElementById('switch')
-        fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-green") {
         let fourGreen = document.getElementById('switch')
         fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-yellow") {
-        let fiveYellow = document.getElementById('switch')
-        fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-green") {
         let fiveGreen = document.getElementById('switch')
         fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-yellow") {
-        let sixYellow = document.getElementById('switch')
-        sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-green") {
         let sixGreen = document.getElementById('switch')
         sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-yellow") {
-        let sevenYellow = document.getElementById('switch')
-        sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-green") {
         let sevenGreen = document.getElementById('switch')
         sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-yellow") {
-        let eightYellow = document.getElementById('switch')
-        eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-green") {
         let eightGreen = document.getElementById('switch')
         eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-yellow") {
-        let nineYellow = document.getElementById('switch')
-        nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-green") {
         let nineGreen = document.getElementById('switch')
         nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-yellow") {
-        let bloqueioYellow = document.getElementById('switch')
-        bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-green") {
         let bloqueioGreen = document.getElementById('switch')
         bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-yellow") {
-        let inverteYellow = document.getElementById('switch')
-        inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-green") {
         let inverteGreen = document.getElementById('switch')
         inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-yellow") {
-        let corYellow = document.getElementById('switch')
-        corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-green") {
         let corGreen = document.getElementById('switch')
         corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-yellow") {
-        let moretwoYellow = document.getElementById('switch')
-        moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-green") {
         let moretwoGreen = document.getElementById('switch')
         moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
@@ -11192,174 +3758,48 @@ function morefouryellow() {
     let centroCarta = document.getElementById('centro')
     centroCarta.innerHTML = `<img src="./${tipoCarta}.png">`
 
-    if (tipoCarta == "0-red") {
-        let zeroRed = document.getElementById('switch')
-        zeroRed.innerHTML = `<button onclick = ${"zerored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-blue") {
-        let zeroBlue = document.getElementById('switch')
-        zeroBlue.innerHTML = `<button onclick = ${"zeroblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-green") {
-        let zeroGreen = document.getElementById('switch')
-        zeroGreen.innerHTML = `<button onclick = ${"zerogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "0-yellow") {
+    if (tipoCarta == "0-yellow") {
         let zeroYellow = document.getElementById('switch')
         zeroYellow.innerHTML = `<button onclick = ${"zeroyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-red") {
-        let oneRed = document.getElementById('switch')
-        oneRed.innerHTML = `<button onclick = ${"onered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-green") {
-        let oneGreen = document.getElementById('switch')
-        oneGreen.innerHTML = `<button onclick = ${"onegreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "1-yellow") {
         let oneYellow = document.getElementById('switch')
         oneYellow.innerHTML = `<button onclick = ${"oneyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "1-blue") {
-        let oneBlue = document.getElementById('switch')
-        oneBlue.innerHTML = `<button onclick = ${"oneblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-red") {
-        let twoRed = document.getElementById('switch')
-        twoRed.innerHTML = `<button onclick = ${"twored()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "2-yellow") {
         let twoYellow = document.getElementById('switch')
         twoYellow.innerHTML = `<button onclick = ${"twoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-blue") {
-        let twoBlue = document.getElementById('switch')
-        twoBlue.innerHTML = `<button onclick = ${"twoblue()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "2-green") {
-        let twoGreen = document.getElementById('switch')
-        twoGreen.innerHTML = `<button onclick = ${"twogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-red") {
-        let threeRed = document.getElementById('switch')
-        threeRed.innerHTML = `<button onclick = ${"threered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-green") {
-        let threeGreen = document.getElementById('switch')
-        threeGreen.innerHTML = `<button onclick = ${"threegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "3-blue") {
-        let threeBlue = document.getElementById('switch')
-        threeBlue.innerHTML = `<button onclick = ${"threeblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "3-yellow") {
         let threeYellow = document.getElementById('switch')
         threeYellow.innerHTML = `<button onclick = ${"threeyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-red") {
-        let fourRed = document.getElementById('switch')
-        fourRed.innerHTML = `<button onclick = ${"fourred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-blue") {
-        let fourBlue = document.getElementById('switch')
-        fourBlue.innerHTML = `<button onclick = ${"fourblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "4-yellow") {
         let fourYellow = document.getElementById('switch')
         fourYellow.innerHTML = `<button onclick = ${"fouryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "4-green") {
-        let fourGreen = document.getElementById('switch')
-        fourGreen.innerHTML = `<button onclick = ${"fourgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-red") {
-        let fiveRed = document.getElementById('switch')
-        fiveRed.innerHTML = `<button onclick = ${"fivered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-blue") {
-        let fiveBlue = document.getElementById('switch')
-        fiveBlue.innerHTML = `<button onclick = ${"fiveblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "5-yellow") {
         let fiveYellow = document.getElementById('switch')
         fiveYellow.innerHTML = `<button onclick = ${"fiveyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "5-green") {
-        let fiveGreen = document.getElementById('switch')
-        fiveGreen.innerHTML = `<button onclick = ${"fivegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-red") {
-        let sixRed = document.getElementById('switch')
-        sixRed.innerHTML = `<button onclick = ${"sixred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-blue") {
-        let sixBlue = document.getElementById('switch')
-        sixBlue.innerHTML = `<button onclick = ${"sixblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "6-yellow") {
         let sixYellow = document.getElementById('switch')
         sixYellow.innerHTML = `<button onclick = ${"sixyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "6-green") {
-        let sixGreen = document.getElementById('switch')
-        sixGreen.innerHTML = `<button onclick = ${"sixgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-red") {
-        let sevenRed = document.getElementById('switch')
-        sevenRed.innerHTML = `<button onclick = ${"sevenred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-blue") {
-        let sevenBlue = document.getElementById('switch')
-        sevenBlue.innerHTML = `<button onclick = ${"sevenblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "7-yellow") {
         let sevenYellow = document.getElementById('switch')
         sevenYellow.innerHTML = `<button onclick = ${"sevenyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "7-green") {
-        let sevenGreen = document.getElementById('switch')
-        sevenGreen.innerHTML = `<button onclick = ${"sevengreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-red") {
-        let eightRed = document.getElementById('switch')
-        eightRed.innerHTML = `<button onclick = ${"eightred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-blue") {
-        let eightBlue = document.getElementById('switch')
-        eightBlue.innerHTML = `<button onclick = ${"eightblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "8-yellow") {
         let eightYellow = document.getElementById('switch')
         eightYellow.innerHTML = `<button onclick = ${"eightyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "8-green") {
-        let eightGreen = document.getElementById('switch')
-        eightGreen.innerHTML = `<button onclick = ${"eightgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-red") {
-        let nineRed = document.getElementById('switch')
-        nineRed.innerHTML = `<button onclick = ${"ninered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-blue") {
-        let nineBlue = document.getElementById('switch')
-        nineBlue.innerHTML = `<button onclick = ${"nineblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "9-yellow") {
         let nineYellow = document.getElementById('switch')
         nineYellow.innerHTML = `<button onclick = ${"nineyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "9-green") {
-        let nineGreen = document.getElementById('switch')
-        nineGreen.innerHTML = `<button onclick = ${"ninegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-red") {
-        let bloqueioRed = document.getElementById('switch')
-        bloqueioRed.innerHTML = `<button onclick = ${"bloqueiored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-blue") {
-        let bloqueioBlue = document.getElementById('switch')
-        bloqueioBlue.innerHTML = `<button onclick = ${"bloqueioblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "bloqueio-yellow") {
         let bloqueioYellow = document.getElementById('switch')
         bloqueioYellow.innerHTML = `<button onclick = ${"bloqueioyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "bloqueio-green") {
-        let bloqueioGreen = document.getElementById('switch')
-        bloqueioGreen.innerHTML = `<button onclick = ${"bloqueiogreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-red") {
-        let inverteRed = document.getElementById('switch')
-        inverteRed.innerHTML = `<button onclick = ${"invertered()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-blue") {
-        let inverteBlue = document.getElementById('switch')
-        inverteBlue.innerHTML = `<button onclick = ${"inverteblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "inverte-yellow") {
         let inverteYellow = document.getElementById('switch')
         inverteYellow.innerHTML = `<button onclick = ${"inverteyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "inverte-green") {
-        let inverteGreen = document.getElementById('switch')
-        inverteGreen.innerHTML = `<button onclick = ${"invertegreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-red") {
-        let corRed = document.getElementById('switch')
-        corRed.innerHTML = `<button onclick = ${"corred()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-blue") {
-        let corBlue = document.getElementById('switch')
-        corBlue.innerHTML = `<button onclick = ${"corblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "cor-yellow") {
         let corYellow = document.getElementById('switch')
         corYellow.innerHTML = `<button onclick = ${"coryellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "cor-green") {
-        let corGreen = document.getElementById('switch')
-        corGreen.innerHTML = `<button onclick = ${"corgreen()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-red") {
-        let moretwoRed = document.getElementById('switch')
-        moretwoRed.innerHTML = `<button onclick = ${"moretwored()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-blue") {
-        let moretwoBlue = document.getElementById('switch')
-        moretwoBlue.innerHTML = `<button onclick = ${"moretwoblue()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais2-yellow") {
         let moretwoYellow = document.getElementById('switch')
         moretwoYellow.innerHTML = `<button onclick = ${"moretwoyellow()  "}>Jogar Uma Carta</button>`
-    } else if (tipoCarta == "mais2-green") {
-        let moretwoGreen = document.getElementById('switch')
-        moretwoGreen.innerHTML = `<button onclick = ${"moretwogreen()  "}>Jogar Uma Carta</button>`
     } else if (tipoCarta == "mais4-red") {
         let morefourRed = document.getElementById('switch')
         morefourRed.innerHTML = `<button onclick = ${"morefourred()  "}>Jogar Uma Carta</button>`
